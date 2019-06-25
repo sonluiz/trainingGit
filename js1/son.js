@@ -1,0 +1,1 @@
+alert("load file JS bên ngoài vào thành công hello you");
