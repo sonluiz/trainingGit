@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>từ khóa typeof sẽ cho phép kiểm tra kiểu dữ liệu của biến hoặc giá trị</h1>
+<pre>
+    toán tử so sánh : == ( a == b )
+    == so sánh giá trị ( so sánh tương đối )
+    === so sánh giá trị và so sánh kiểu dữ liệu ( so sánh tuyệt đối )
+    toán tử >=
+    toán tử <=
+    toán tử ++ ( tăng thêm 1 giá trị )
+    toán tử -- ( giảm đi 1 đơn vị )
+</pre>
+<script type="text/javascript">
+    var a;
+    console.log("kiểu số trả về : " + typeof 3);
+    console.log("kiểu chuỗi trả về : " + typeof "hello js");
+    console.log("kiểu boolean true trả về : " + typeof true);
+    console.log("kiểu boolean false trả về : " + typeof false);
+    console.log("kiểu null trả về : " + typeof null);
+    console.log("kiểu mảng trả về : " + typeof [1,2,3]);
+    console.log("kiểu object trả về : " + typeof {});
+    console.log("kiểu undefined trả về : " + typeof a);
+
+//    toán tử so sánh
+    console.log(3 == 4);    //false
+    console.log(4 == 4);    //true
+    console.log("4" == 4);  //true vì so sanh tuong doi
+    console.log("4" === 4);         //false vi so sanh tuyet doi
+</script>
+</body>
+</html>
